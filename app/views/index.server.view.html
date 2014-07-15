@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RaspberryPi LEDs</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" href="css/ratchet.min.css">
+  <link rel="stylesheet" href="css/ratchet-theme-ios.min.css">
+  <script src="js/ratchet.min.js"></script>
+</head>
+<body>
+  <header class="bar bar-nav">
+    <a class="icon icon-refresh pull-right"></a>
+    <h1 class="title">RasPi GPIO LEDs</h1>
+  </header>
+
+  <div class="content">
+    <ul class="table-view">
+      <li class="table-view-cell">
+        LED Rojo
+        <div id="red" class="toggle">
+          <div class="toggle-handle"></div>
+        </div>
+      </li>
+      <li class="table-view-cell">
+        LED Amarillo
+        <div id="yellow" class="toggle">
+          <div class="toggle-handle"></div>
+        </div>
+      </li>
+      <li class="table-view-cell">
+        LED Rojo
+        <div id="green" class="toggle">
+          <div class="toggle-handle"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

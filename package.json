@@ -1,0 +1,18 @@
+{
+  "name": "rc",
+  "version": "0.0.0",
+  "description": "API to turn on/off Raspi LEDs",
+  "author": "Carlos Azaustre <cazaustre@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "consolidate": "^0.10.0",
+    "cylon": "^0.16.0",
+    "cylon-gpio": "^0.16.0",
+    "cylon-raspi": "^0.10.0",
+    "cylon.i2c": "^0.13.0",
+    "express": "^4.4.1",
+    "method-override": "^2.1.1",
+    "swig": "^1.4.1"
+  },
+  "devDependencies": {}
+}
